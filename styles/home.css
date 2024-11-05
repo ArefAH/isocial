@@ -120,12 +120,6 @@
 
 .why-us {
   text-align: center;
-  padding: 2rem;
-  margin-top: 200px;
-}
-
-.why-us h2 {
-  margin-bottom: 1.5rem;
 }
 
 .why-us-cards {
@@ -134,17 +128,17 @@
   max-width: 60%; 
   margin: auto;
   gap: 10px;
-  
 }
 
 .single-card {
   flex: 0 0 90%;
-  padding: 1.5rem;
+  padding: 50px;
   border: 1px solid #35BBDF;
   border-radius: 15px;
 }
 
 .single-card p {
+  margin-top: 20px;
   font-size: 18px;
   color: #555;
 }
@@ -169,9 +163,8 @@
   background-color: #35bbdf;
 }
 
-.methodology{
-  margin-top: 200px;
-}
+
+
 
 .single-methodology{
   display: flex;
@@ -182,7 +175,7 @@
 }
 .single-methodology h1{
   font-size: 300px;
-  background: linear-gradient(90deg, rgba(33, 218, 219, 1) 0%, rgba(53, 187, 223, 1) 50%, rgba(77, 148, 230, 1) 100%);
+background: linear-gradient(180deg, rgba(33,218,219,1) 0%, rgba(53,187,223,1) 50%, rgba(77,148,230,1) 100%);
   -webkit-background-clip: text;
   color: transparent;
 }

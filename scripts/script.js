@@ -21,4 +21,3 @@ prevBtn.addEventListener("click", () => {
   nextSlide();
 });
 
-nextSlide();
