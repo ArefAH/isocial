@@ -33,6 +33,10 @@ h1{
   font-family: "expletus-sans";
 }
 
+h2{
+  font-family: "expletus-sans";
+  font-size: 36px;
+}
 
 @font-face {
   font-family: "expletus-sans";

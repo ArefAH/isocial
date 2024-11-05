@@ -31,6 +31,10 @@
   background-size: cover;
 }
 
+.hero-section {
+  margin-bottom: 150px ;
+}
+
 .hero-text {
   width: 50%;
   text-align: left;
@@ -52,12 +56,26 @@
   gap: 10px;
   width: 100%;
   max-width: 800px;
-  margin: 0 auto;
+  margin-top: 30px;
 }
 
 .expertise {
   background-color: lightgray;
   height: 200px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "expletus-sans";
+  padding: 20px;
+  border-radius: 50px;
+  background: #ffffff;
+  box-shadow: 20px 20px 60px #d9d9d9, -20px -20px 60px #ffffff;
+  transition: 0.5s;
+}
+.expertise:hover{
+  box-shadow: 20px 20px 60px #d9d9d9, -20px -20px 60px #ffffff;
+  transform: scale(1.1);
+  transition: 0.5s;
 }
 
 .expertise1 {
