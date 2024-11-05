@@ -213,6 +213,12 @@
   width: 20%;
 }
 
+.connect{
+  background-image: url(./../assets/images/layered-waves.svg);
+  background-position: bottom;
+  color: #fff;
+}
+
 .connect p {
   width: 50%;
   font-size: 20px;
