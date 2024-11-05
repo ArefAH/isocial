@@ -169,23 +169,29 @@
   background-color: #35bbdf;
 }
 
-.features{
+.methodology{
   margin-top: 200px;
 }
 
-.single-feature{
+.single-methodology{
   display: flex;
   gap: 250px;
   font-size: 20px;
   justify-content: center;
   align-items: center;
 }
+.single-methodology h1{
+  font-size: 300px;
+  background: linear-gradient(90deg, rgba(33, 218, 219, 1) 0%, rgba(53, 187, 223, 1) 50%, rgba(77, 148, 230, 1) 100%);
+  -webkit-background-clip: text;
+  color: transparent;
+}
 
-.single-feature img{
+.single-methodology img{
   width: 450px;
 }
 
-.feature-text{
+.methodology-text{
   display: flex;
   flex-direction: column;
   justify-content: center;
