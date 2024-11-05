@@ -21,3 +21,6 @@ prevBtn.addEventListener("click", () => {
   nextSlide();
 });
 
+hamburger.addEventListener("click", () => {
+  navLinks.classList.toggle("active");
+});

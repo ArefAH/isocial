@@ -3,7 +3,6 @@
   width: 80%;
   padding: 0 25px;
   align-items: center;
-  margin-top: 20px;
 }
 
 .nav-logo {
@@ -23,13 +22,19 @@
   opacity: 0.7;
 }
 
+.hamburger {
+  display: none;
+  font-size: 30px;
+  cursor: pointer;
+}
+
 .logo {
   width: 200px;
 }
 .wave-bg {
   background-image: url(./../assets/images/wave.png);
-  background-size: contain;
-  background-position: right;
+  background-size: cover;
+  background-position: top;
   background-repeat: no-repeat;
 }
 
@@ -132,15 +137,20 @@
 
 .single-card {
   flex: 0 0 90%;
+  display: flex;
+  flex-direction: column;
   padding: 50px;
   border: 1px solid #35bbdf;
   border-radius: 15px;
+  justify-content: center;
+  align-items: center;
 }
 
 .single-card p {
   margin-top: 20px;
   font-size: 18px;
   color: #555;
+  width: 80%;
 }
 
 .carousel-controls {
@@ -188,6 +198,7 @@
   font-size: 20px;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
 .single-methodology h1 {
   font-size: 300px;
@@ -201,10 +212,6 @@
   color: transparent;
 }
 
-.single-methodology img {
-  width: 450px;
-}
-
 .methodology-text {
   display: flex;
   flex-direction: column;
@@ -213,7 +220,7 @@
   width: 20%;
 }
 
-.connect{
+.connect {
   background-image: url(./../assets/images/layered-waves.svg);
   background-position: bottom;
   color: #fff;
@@ -228,12 +235,94 @@
 
 .connect a {
   font-size: 20px;
-  background: linear-gradient(
-    180deg,
-    rgba(33, 218, 219, 1) 0%,
-    rgba(53, 187, 223, 1) 50%,
-    rgba(77, 148, 230, 1) 100%
-  );
-  -webkit-background-clip: text;
-  color: transparent;
+}
+@media screen and (max-width: 1165px) {
+  .wave-bg {
+    background-image: none;
+    background: rgb(33, 218, 219);
+    background: linear-gradient(
+      180deg,
+      rgba(33, 218, 219, 1) 0%,
+      rgba(53, 187, 223, 1) 50%,
+      rgba(77, 148, 230, 1) 100%
+    );
+  }
+
+  .logo {
+    width: 100px;
+    margin-right: auto;
+  }
+  .navbar {
+    background-color: #fff;
+    width: 100%;
+    margin-top: 0;
+  }
+  .nav-links {
+    display: none !important;
+    flex-direction: column;
+    position: absolute;
+    top: 90px;
+    right: 0;
+    background-color: #fff;
+    width: 100%;
+    padding: 20px;
+  }
+
+  .nav-links.active {
+    display: flex !important;
+  }
+
+  .hamburger {
+    display: block;
+  }
+  .hero-text h1 {
+    font-size: 30px !important;
+  }
+  .hero-text {
+    text-align: center;
+  }
+  .hero-section {
+    height: 80vh;
+    color: #fff;
+  }
+  .hero-text {
+    justify-content: center;
+    align-items: center;
+  }
+  .hero-img {
+    display: none;
+  }
+  .our-expertise {
+    margin: 0 20px;
+  }
+  .expertise {
+    height: 100px;
+    font-size: 12px;
+    font-weight: 800;
+    padding: 10px;
+    border-radius: 15px;
+  }
+  .single-methodology {
+    gap: 100px;
+  }
+  .single-methodology h1 {
+    font-size: 150px;
+  }
+  .methodology-text {
+    width: 30%;
+  }
+  .connect {
+    background-image: none;
+    background: rgb(33, 218, 219);
+    background: linear-gradient(
+      180deg,
+      rgba(33, 218, 219, 1) 0%,
+      rgba(53, 187, 223, 1) 50%,
+      rgba(77, 148, 230, 1) 100%
+    );
+    height: 100vh;
+  }
+  .connect h2 {
+    margin-top: 0;
+  }
 }
