@@ -164,7 +164,19 @@
 }
 
 
-
+.single-feature{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-bottom: 20px;
+  width: 20%;
+  min-width: 300px;
+  height: 400px;
+  background: linear-gradient(180deg, rgba(33,218,219,1) 0%, rgba(53,187,223,1) 50%, rgba(77,148,230,1) 100%);
+  padding: 50px;
+  border-radius: 15px;
+  color: #fff;
+}
 
 .single-methodology{
   display: flex;
