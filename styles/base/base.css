@@ -1,0 +1,50 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "inter";
+}
+
+body {
+  font-family: "Mona Sans";
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+input {
+  outline: 0;
+}
+
+button {
+  border: 0;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+h1{
+  font-family: "expletus-sans";
+}
+
+@font-face {
+  font-family: "inter";
+  src:url("./../../assets/fonts/Inter/inter.ttf")
+    format("woff");
+  font-weight: 100 900;
+  font-stretch: 50% 100%;
+  font-style: normal;
+}
+@font-face {
+  font-family: "expletus-sans";
+  src:url("./../../assets/fonts/Expletus_Sans/ExpletusSans.ttf")
+    format("woff");
+  font-weight: 100 900;
+  font-stretch: 50% 100%;
+  font-style: normal;
+}
