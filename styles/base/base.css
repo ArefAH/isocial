@@ -2,11 +2,11 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "inter";
+  
 }
 
 body {
-  font-family: "Mona Sans";
+  font-family: "rubik", sans-serif;
 }
 
 img {
@@ -27,22 +27,24 @@ button {
 a {
   text-decoration: none;
   color: black;
+  font-size: 16px;
 }
 h1{
   font-family: "expletus-sans";
 }
 
+
 @font-face {
-  font-family: "inter";
-  src:url("./../../assets/fonts/Inter/inter.ttf")
+  font-family: "expletus-sans";
+  src:url("./../../assets/fonts/expletussans.ttf")
     format("woff");
   font-weight: 100 900;
   font-stretch: 50% 100%;
   font-style: normal;
 }
 @font-face {
-  font-family: "expletus-sans";
-  src:url("./../../assets/fonts/Expletus_Sans/ExpletusSans.ttf")
+  font-family: "rubik";
+  src:url("./../../assets/fonts/rubik.ttf")
     format("woff");
   font-weight: 100 900;
   font-stretch: 50% 100%;
