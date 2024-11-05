@@ -168,3 +168,27 @@
 .carousel-controls button:hover {
   background-color: #35bbdf;
 }
+
+.features{
+  margin-top: 200px;
+}
+
+.single-feature{
+  display: flex;
+  gap: 250px;
+  font-size: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.single-feature img{
+  width: 450px;
+}
+
+.feature-text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 20%;
+}
