@@ -212,3 +212,22 @@
   flex-wrap: wrap;
   width: 20%;
 }
+
+.connect p {
+  width: 50%;
+  font-size: 20px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.connect a {
+  font-size: 20px;
+  background: linear-gradient(
+    180deg,
+    rgba(33, 218, 219, 1) 0%,
+    rgba(53, 187, 223, 1) 50%,
+    rgba(77, 148, 230, 1) 100%
+  );
+  -webkit-background-clip: text;
+  color: transparent;
+}
